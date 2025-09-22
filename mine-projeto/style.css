@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+    color: black;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav{
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: nome;
+    color:red green blue;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+.card{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha) 
+}
+
+section{
+    padding: 20px;
+}
