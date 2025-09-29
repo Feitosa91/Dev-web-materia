@@ -1,0 +1,28 @@
+/* Celulares até 600px */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  main {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Tablets até 900px */
+@media (max-width: 900px) {
+  nav ul {
+    gap: 15px;
+  }
+
+  main {
+    font-size: 1rem;
+  }
+}
